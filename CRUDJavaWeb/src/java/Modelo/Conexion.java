@@ -27,7 +27,7 @@ public class Conexion {
         ds.setServerName("localhost");
         ds.setPort(3306);
         ds.setDatabaseName("bdcrudusuarios?characterEncoding=UTF-8");
-        conexion = ds.getConnection("root", "15513792");
+        conexion = ds.getConnection("root", "admin123");
 
         if (wTransaccion == true) {
             this.conexion.setAutoCommit(false);
